@@ -1,4 +1,7 @@
-sut:
-    build: .
-    command: prove
-
+version: "3"
+services:
+    redis:
+        image: redis
+    sut:
+        build: .
+        command: prove
