@@ -1,4 +1,4 @@
 sut:
     build: .
-    command: "Docker Cloud demo test"
+    command: prove
 
